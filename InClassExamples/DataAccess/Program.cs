@@ -45,7 +45,6 @@ namespace DataAccess
                 r += number;
                 // r = r + number;
                 counter++;
-
             }
 
             for (counter = 0; counter < numbersToAddUp.Length; counter++)
@@ -57,11 +56,7 @@ namespace DataAccess
 
             foreach (var number in numbersToAddUp)
             {
-
                 r += number;
-
-
-
             }
 
             return r;
