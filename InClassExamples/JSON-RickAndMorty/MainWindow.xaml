@@ -1,0 +1,16 @@
+﻿<Window x:Class="JSON_RickAndMorty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JSON_RickAndMorty"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lstCharacters" HorizontalAlignment="Left" Height="204" Margin="67,113,0,0" VerticalAlignment="Top" Width="309" SelectionChanged="LstCharacters_SelectionChanged"/>
+        <Button x:Name="btn" Content="Button" HorizontalAlignment="Left" Margin="349,335,0,0" VerticalAlignment="Top" Width="146" Height="53"/>
+        <Label x:Name="lblRickAndMorty" Content="Rick and Morty" HorizontalAlignment="Left" Margin="291,30,0,0" VerticalAlignment="Top" Width="204" Height="54" FontSize="24"/>
+        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="204" Margin="495,113,0,0" VerticalAlignment="Top" Width="238"/>
+
+    </Grid>
+</Window>
